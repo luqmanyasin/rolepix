@@ -769,6 +769,7 @@ br {
 .footer-size {
   background-color: #161a23;
   height: auto;
+  position: relative;
 }
 
 #particles-js1 {
