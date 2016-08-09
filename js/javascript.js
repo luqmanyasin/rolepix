@@ -502,7 +502,7 @@ $(document).ready(function() {
 
   });
 
-  $('.filter').click(function() {
+  $('.filter.fp').click(function() {
     $(this).toggleClass('active');
     setTimeout(function() {
       $('.proj-form1, .proj-form2').removeClass('hidden');
@@ -518,7 +518,7 @@ $(document).ready(function() {
   var firstFormAppeared = false;
 
   $('.other-textarea').keypress(function() {
-    if ($('.other-textarea').val() !== '' && !firstFormAppeared && !$('.filter').hasClass('active')) {
+    if ($('.other-textarea').val() !== '' && !firstFormAppeared && !$('.filter.fp').hasClass('active')) {
 
       setTimeout(function() {
         $('.proj-form1, .proj-form2').removeClass('hidden');
@@ -532,8 +532,8 @@ $(document).ready(function() {
 
       firstFormAppeared = true;
     }
-    else if ($('.other-textarea').val() !== '' && $('.filter').hasClass('active')) {
-      $('.filter').removeClass('active');
+    else if ($('.other-textarea').val() !== '' && $('.filter.fp').hasClass('active')) {
+      $('.filter.fp').removeClass('active');
     }
   });
 
