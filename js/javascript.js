@@ -663,8 +663,19 @@ $(function() {
 /* ==============================================
 Drop Down Menu Fade Effect
 =============================================== */
-
-$('.nav-toggle').hover(function() {
+/* ==============================================
+Insta Feed Start
+=============================================== */
+    var userFeed = new Instafeed({
+        get: 'user',
+        userId: '3648847472',
+        accessToken: 'ffa36bdfc4df4de48dc58cef3bbd5cbd'
+    });
+    userFeed.run();
+/* ==============================================
+Insta Feed End
+=============================================== */
+  $('.nav-toggle').hover(function() {
 
     $(this).find('.dropdown-menu').first().stop(true, true).slideDown(250);
     }, function() {
