@@ -2093,7 +2093,7 @@ button[type="submit"] {
 }
 #particles-background {
   background: #2c2d44;
-  background-image: -moz-linear-gradient(45deg, #3f3251 2%, #002025 100%);
-  background-image: -webkit-linear-gradient(45deg, #3f3251 2%, #002025 100%);
-  background-image: linear-gradient(45deg, #3f3251 2%, #002025 100%);
+  background-image: -moz-linear-gradient(45deg, #44404a 2%, #002025 100%);
+  background-image: -webkit-linear-gradient(45deg, #44404a 2%, #002025 100%);
+  background-image: linear-gradient(45deg, #44404a 2%, #002025 100%);
 }
