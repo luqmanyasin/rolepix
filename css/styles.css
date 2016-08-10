@@ -57,6 +57,7 @@ h2 {
 
 .container {
   width: 1120px;
+  position: relative;
 }
 
 #navigation2, #navigation {
@@ -582,7 +583,7 @@ h2 {
 }
 
 .about-bg {
-  background-color: #161a23;
+  background-color: transparent;
   position: relative;
   height: 100%;
 }
