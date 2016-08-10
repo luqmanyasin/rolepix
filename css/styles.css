@@ -1572,7 +1572,7 @@ input::-webkit-input-placeholder {
 .active-textarea {
   background: linear-gradient(to bottom, #101318 99%, #1f9095 1%);
   background-position: 0px 0;
-  background-size: 1100px 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
