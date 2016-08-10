@@ -685,7 +685,7 @@ Insta Feed Start
     var userFeed = new Instafeed({
         get: 'user',
         userId: '3648847472',
-        accessToken: '1677ed0.ed191534e104408792838dc0ada1b7ed'
+        accessToken: '3648847472.1677ed0.ed191534e104408792838dc0ada1b7ed'
     });
     userFeed.run();
 /* ==============================================
