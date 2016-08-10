@@ -663,18 +663,6 @@ $(function() {
 /* ==============================================
 Drop Down Menu Fade Effect
 =============================================== */
-/* ==============================================
-Insta Feed Start
-=============================================== */
-    var userFeed = new Instafeed({
-        get: 'user',
-        userId: '3648847472',
-        accessToken: 'ffa36bdfc4df4de48dc58cef3bbd5cbd'
-    });
-    userFeed.run();
-/* ==============================================
-Insta Feed End
-=============================================== */
   $('.nav-toggle').hover(function() {
 
     $(this).find('.dropdown-menu').first().stop(true, true).slideDown(250);
@@ -691,3 +679,15 @@ $('.mini-nav-button').click(function() {
  });
 
 });
+/* ==============================================
+Insta Feed Start
+=============================================== */
+    var userFeed = new Instafeed({
+        get: 'user',
+        userId: '3648847472',
+        accessToken: '3648847472.1677ed0.ed191534e104408792838dc0ada1b7ed'
+    });
+    userFeed.run();
+/* ==============================================
+Insta Feed End
+=============================================== */
