@@ -48,7 +48,7 @@ $(document).ready(function() {
 	$('#Container').mixItUp();
 
     });
-
+/*
     if($(window).scrollTop() >= 658) {
         $('#navigation').removeClass('not-visible-nav');
     }
@@ -64,7 +64,7 @@ $(document).ready(function() {
             $('#navigation').addClass('not-visible-nav');
         }
     });
-
+*/
     var locationString = location.pathname;
     if (locationString.indexOf('index') > -1 || locationString == '/') {
         $(window).scroll(function() {
@@ -618,7 +618,7 @@ $(document).ready(function () {
 
 
     var menu = $('#navigation');
-
+/*
     $(window).scroll(function () {
         var y = $(this).scrollTop();
         var z = $('.waypoint').offset().top - 200;
@@ -635,7 +635,7 @@ $(document).ready(function () {
 /* ==============================================
 Active Navigation Calling
 =============================================== */
-
+/*
 $('body').scrollspy({
 	target: '.nav-menu',
 	offset: 95
@@ -645,7 +645,7 @@ $('body').scrollspy({
 /* ==============================================
 Scroll Navigation
 =============================================== */
-
+/*
 $(function() {
 
 
