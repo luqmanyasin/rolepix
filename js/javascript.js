@@ -686,6 +686,7 @@ Insta Feed Start
         get: 'user',
         userId: '3648847472',
         accessToken: '3648847472.1677ed0.ed191534e104408792838dc0ada1b7ed',
+        limit: 6,
         resolution: 'low_resolution'
     });
     userFeed.run();
