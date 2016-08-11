@@ -2097,3 +2097,6 @@ button[type="submit"] {
   background-image: -webkit-linear-gradient(45deg, #44404a 2%, #002025 100%);
   background-image: linear-gradient(45deg, #44404a 2%, #002025 100%);
 }
+#instafeed a{
+  margin-left: 20px;
+}
