@@ -2113,3 +2113,12 @@ button[type="submit"] {
 #instafeed a:hover {
   opacity: .7;
 }
+
+
+/* -- CUSTOM -- */
+
+@media only screen and (max-width: 455px){
+  .typed-text {
+    display: block;
+  }
+}
