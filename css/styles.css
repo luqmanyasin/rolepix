@@ -807,6 +807,10 @@ br {
   margin-right: 17px;
 }
 
+.features-container i {
+  font-size: 30px;
+}
+
 .feature-item1, .feature-item2, .feature-item3 {
   display: flex;
   margin-right: 15px;
