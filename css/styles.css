@@ -1874,6 +1874,17 @@ button[type="submit"] {
 
 }
 
+@media (max-width: 700px) {
+  .arrows {
+    width: 150px;
+  }
+
+  .arrows span {
+    font-size: 40px;
+  }
+
+}
+
 @media (max-width: 680px) {
   .portfolio-icon-con {
     flex-direction: column;
