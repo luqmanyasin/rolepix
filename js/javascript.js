@@ -1,3 +1,5 @@
+console.error = function() {};
+
 var unslider = $('.head-slider').unslider({
     autoplay: true,
     delay: 8000
@@ -209,7 +211,7 @@ $(document).ready(function() {
         if ($('.slide2').hasClass('unslider-active') && !executedSlider2) {
             $(function() {
                 $(".typed-text2-1").typed({
-                    strings: ["C"],
+                    strings: ["D"],
                     typeSpeed: 50,
                     startDelay: 1000,
                     showCursor: false
@@ -219,7 +221,7 @@ $(document).ready(function() {
                     opacity: 1
                 });
                 $(".typed-text2-2").typed({
-                    strings: ["l"],
+                    strings: ["e"],
                     typeSpeed: 100,
                     startDelay: 1000,
                     showCursor: false
@@ -229,7 +231,7 @@ $(document).ready(function() {
                     opacity: 1
                 });
                 $(".typed-text2-3").typed({
-                    strings: ["a"],
+                    strings: ["v"],
                     typeSpeed: 200,
                     startDelay: 1000,
                     showCursor: false
@@ -239,7 +241,7 @@ $(document).ready(function() {
                     opacity: 1
                 });
                 $(".typed-text2-4").typed({
-                    strings: ["r"],
+                    strings: ["e"],
                     typeSpeed: 250,
                     startDelay: 1000,
                     showCursor: false
@@ -249,7 +251,7 @@ $(document).ready(function() {
                     opacity: 1
                 });
                 $(".typed-text2-5").typed({
-                    strings: ["i"],
+                    strings: ["l"],
                     typeSpeed: 300,
                     startDelay: 1000,
                     showCursor: false
@@ -259,7 +261,7 @@ $(document).ready(function() {
                     opacity: 1
                 });
                 $(".typed-text2-6").typed({
-                    strings: ["f"],
+                    strings: ["o"],
                     typeSpeed: 350,
                     startDelay: 1000,
                     showCursor: false
@@ -269,7 +271,7 @@ $(document).ready(function() {
                     opacity: 1
                 });
                 $(".typed-text2-7").typed({
-                    strings: ["i"],
+                    strings: ["p"],
                     typeSpeed: 400,
                     startDelay: 1000,
                     showCursor: false
@@ -279,7 +281,7 @@ $(document).ready(function() {
                     opacity: 1
                 });
                 $(".typed-text2-8").typed({
-                    strings: ["e"],
+                    strings: ["m"],
                     typeSpeed: 450,
                     startDelay: 1000,
                     showCursor: false
@@ -289,13 +291,33 @@ $(document).ready(function() {
                     opacity: 1
                 });
                 $(".typed-text2-9").typed({
-                    strings: ["d"],
+                    strings: ["e"],
                     typeSpeed: 500,
                     startDelay: 1000,
                     showCursor: false
                 }).animate({
                     opacity: 0
                 }).delay(900 + 2600 / 4).animate({
+                    opacity: 1
+                });
+                $(".typed-text2-10").typed({
+                    strings: ["n"],
+                    typeSpeed: 450,
+                    startDelay: 1000,
+                    showCursor: false
+                }).animate({
+                    opacity: 0
+                }).delay(1000 + 2800 / 4).animate({
+                    opacity: 1
+                });
+                $(".typed-text2-11").typed({
+                    strings: ["t"],
+                    typeSpeed: 450,
+                    startDelay: 1000,
+                    showCursor: false
+                }).animate({
+                    opacity: 0
+                }).delay(1200 + 3000 / 4).animate({
                     opacity: 1
                 });
             });
@@ -313,7 +335,7 @@ $(document).ready(function() {
         if ($('.slide3').hasClass('unslider-active') && !executedSlider3) {
             $(function() {
                 $(".typed-text3-1").typed({
-                    strings: ["C"],
+                    strings: ["E"],
                     typeSpeed: 50,
                     startDelay: 1000,
                     showCursor: false
@@ -323,7 +345,7 @@ $(document).ready(function() {
                     opacity: 1
                 });
                 $(".typed-text3-2").typed({
-                    strings: ["l"],
+                    strings: ["x"],
                     typeSpeed: 100,
                     startDelay: 1000,
                     showCursor: false
@@ -333,7 +355,7 @@ $(document).ready(function() {
                     opacity: 1
                 });
                 $(".typed-text3-3").typed({
-                    strings: ["a"],
+                    strings: ["p"],
                     typeSpeed: 200,
                     startDelay: 1000,
                     showCursor: false
@@ -343,7 +365,7 @@ $(document).ready(function() {
                     opacity: 1
                 });
                 $(".typed-text3-4").typed({
-                    strings: ["r"],
+                    strings: ["e"],
                     typeSpeed: 250,
                     startDelay: 1000,
                     showCursor: false
@@ -353,7 +375,7 @@ $(document).ready(function() {
                     opacity: 1
                 });
                 $(".typed-text3-5").typed({
-                    strings: ["i"],
+                    strings: ["r"],
                     typeSpeed: 300,
                     startDelay: 1000,
                     showCursor: false
@@ -363,7 +385,7 @@ $(document).ready(function() {
                     opacity: 1
                 });
                 $(".typed-text3-6").typed({
-                    strings: ["f"],
+                    strings: ["i"],
                     typeSpeed: 350,
                     startDelay: 1000,
                     showCursor: false
@@ -373,7 +395,7 @@ $(document).ready(function() {
                     opacity: 1
                 });
                 $(".typed-text3-7").typed({
-                    strings: ["i"],
+                    strings: ["e"],
                     typeSpeed: 400,
                     startDelay: 1000,
                     showCursor: false
@@ -383,7 +405,7 @@ $(document).ready(function() {
                     opacity: 1
                 });
                 $(".typed-text3-8").typed({
-                    strings: ["e"],
+                    strings: ["n"],
                     typeSpeed: 450,
                     startDelay: 1000,
                     showCursor: false
@@ -393,13 +415,23 @@ $(document).ready(function() {
                     opacity: 1
                 });
                 $(".typed-text3-9").typed({
-                    strings: ["d"],
+                    strings: ["c"],
                     typeSpeed: 500,
                     startDelay: 1000,
                     showCursor: false
                 }).animate({
                     opacity: 0
                 }).delay(900 + 2600 / 4).animate({
+                    opacity: 1
+                });
+                $(".typed-text3-10").typed({
+                    strings: ["e"],
+                    typeSpeed: 500,
+                    startDelay: 1000,
+                    showCursor: false
+                }).animate({
+                    opacity: 0
+                }).delay(1000 + 2800 / 4).animate({
                     opacity: 1
                 });
             });
@@ -411,6 +443,175 @@ $(document).ready(function() {
             executedSlider3 = false;
         }
     }, 10);
+
+    var executedSlider4 = false;
+    setInterval(function() {
+        if ($('.slide4').hasClass('unslider-active') && !executedSlider4) {
+            $(function() {
+                $(".typed-text4-1").typed({
+                    strings: ["D"],
+                    typeSpeed: 50,
+                    startDelay: 1000,
+                    showCursor: false
+                }).animate({
+                    opacity: 0
+                }).delay(100 + 1000 / 4).animate({
+                    opacity: 1
+                });
+                $(".typed-text4-2").typed({
+                    strings: ["e"],
+                    typeSpeed: 100,
+                    startDelay: 1000,
+                    showCursor: false
+                }).animate({
+                    opacity: 0
+                }).delay(200 + 1200 / 4).animate({
+                    opacity: 1
+                });
+                $(".typed-text4-3").typed({
+                    strings: ["s"],
+                    typeSpeed: 200,
+                    startDelay: 1000,
+                    showCursor: false
+                }).animate({
+                    opacity: 0
+                }).delay(300 + 1400 / 4).animate({
+                    opacity: 1
+                });
+                $(".typed-text4-4").typed({
+                    strings: ["i"],
+                    typeSpeed: 250,
+                    startDelay: 1000,
+                    showCursor: false
+                }).animate({
+                    opacity: 0
+                }).delay(400 + 1600 / 4).animate({
+                    opacity: 1
+                });
+                $(".typed-text4-5").typed({
+                    strings: ["g"],
+                    typeSpeed: 300,
+                    startDelay: 1000,
+                    showCursor: false
+                }).animate({
+                    opacity: 0
+                }).delay(500 + 1800 / 4).animate({
+                    opacity: 1
+                });
+                $(".typed-text4-6").typed({
+                    strings: ["n"],
+                    typeSpeed: 350,
+                    startDelay: 1000,
+                    showCursor: false
+                }).animate({
+                    opacity: 0
+                }).delay(600 + 2000 / 4).animate({
+                    opacity: 1
+                });
+            });
+            executedSlider4 = true;
+        }
+    }, 10);
+    setInterval(function() {
+        if (!$('.slide4').hasClass('unslider-active') && executedSlider4) {
+            executedSlider4 = false;
+        }
+    }, 10);
+
+    var executedSlider5 = false;
+    setInterval(function() {
+        if ($('.slide5').hasClass('unslider-active') && !executedSlider5) {
+            $(function() {
+                $(".typed-text5-1").typed({
+                    strings: ["I"],
+                    typeSpeed: 50,
+                    startDelay: 1000,
+                    showCursor: false
+                }).animate({
+                    opacity: 0
+                }).delay(100 + 1000 / 4).animate({
+                    opacity: 1
+                });
+                $(".typed-text5-2").typed({
+                    strings: ["d"],
+                    typeSpeed: 100,
+                    startDelay: 1000,
+                    showCursor: false
+                }).animate({
+                    opacity: 0
+                }).delay(200 + 1200 / 4).animate({
+                    opacity: 1
+                });
+                $(".typed-text5-3").typed({
+                    strings: ["e"],
+                    typeSpeed: 200,
+                    startDelay: 1000,
+                    showCursor: false
+                }).animate({
+                    opacity: 0
+                }).delay(300 + 1400 / 4).animate({
+                    opacity: 1
+                });
+                $(".typed-text5-4").typed({
+                    strings: ["n"],
+                    typeSpeed: 250,
+                    startDelay: 1000,
+                    showCursor: false
+                }).animate({
+                    opacity: 0
+                }).delay(400 + 1600 / 4).animate({
+                    opacity: 1
+                });
+                $(".typed-text5-5").typed({
+                    strings: ["t"],
+                    typeSpeed: 300,
+                    startDelay: 1000,
+                    showCursor: false
+                }).animate({
+                    opacity: 0
+                }).delay(500 + 1800 / 4).animate({
+                    opacity: 1
+                });
+                $(".typed-text5-6").typed({
+                    strings: ["i"],
+                    typeSpeed: 350,
+                    startDelay: 1000,
+                    showCursor: false
+                }).animate({
+                    opacity: 0
+                }).delay(600 + 2000 / 4).animate({
+                    opacity: 1
+                });
+                $(".typed-text5-7").typed({
+                    strings: ["t"],
+                    typeSpeed: 350,
+                    startDelay: 1000,
+                    showCursor: false
+                }).animate({
+                    opacity: 0
+                }).delay(700 + 2200 / 4).animate({
+                    opacity: 1
+                });
+                $(".typed-text5-8").typed({
+                    strings: ["y"],
+                    typeSpeed: 350,
+                    startDelay: 1000,
+                    showCursor: false
+                }).animate({
+                    opacity: 0
+                }).delay(800 + 2400 / 4).animate({
+                    opacity: 1
+                });
+            });
+            executedSlider5 = true;
+        }
+    }, 10);
+    setInterval(function() {
+        if (!$('.slide5').hasClass('unslider-active') && executedSlider5) {
+            executedSlider5 = false;
+        }
+    }, 10);
+
     if (locationString.indexOf('index') > -1 || locationString == '/') {
         $("body").mousemove(function(e) {
             var outOfBounds = false;
