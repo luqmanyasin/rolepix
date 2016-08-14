@@ -1559,6 +1559,8 @@ input::-webkit-input-placeholder {
 
 .input-group {
   width: 48%;
+  background-color: #101318;
+  border-radius: 8px;
 }
 
 .input-group-addon {
@@ -1635,11 +1637,21 @@ input::-webkit-input-placeholder {
 }
 
 #c2, #c3 {
-  background-color: #101318;
+  background: linear-gradient(to bottom, #101318 95%, #1f9095 5%);
+  background-position: -1100px 0;
+  background-size: 1100px 100%;
+  background-repeat: no-repeat;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   border: 1.8px solid #1f9095;
   transition: all .5s ease;
+}
+
+#c2:focus, #c3:focus {
+  background: linear-gradient(to bottom, #101318 95%, #1f9095 5%);
+  background-position: 0px 0;
+  background-size: 1100px 100%;
+  background-repeat: no-repeat;
 }
 
 .input-holder {
@@ -1893,6 +1905,18 @@ button[type="submit"] {
 
   .arrows span {
     font-size: 40px;
+  }
+
+  .typed-text1-1, .typed-text2-1, .typed-text3-1, .typed-text4-1, .typed-text5-1 {
+    margin-left: -15px;
+  }
+
+  .typed-text {
+    display: block;
+  }
+
+  .slider1-text, .slider2-text, .slider3-text {
+    text-align: center;
   }
 
 }
