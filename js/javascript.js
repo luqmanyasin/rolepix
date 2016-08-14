@@ -39,9 +39,43 @@ $(function() {
     });
 });
 
+if ($(window).width() <= 900 && $(window).width() > 600) {
+  $('.header-bg').css('background-image', "url('img/header-bg-medium.jpg')");
+  $('.header-bg2').css('background-image', "url('img/header-bg2-medium.jpg')");
+  $('.header-bg3').css('background-image', "url('img/header-bg3-medium.jpg')");
+}
+else if ($(window).width() <= 600) {
+  $('.header-bg').css('background-image', "url('img/header-bg-small.jpg')");
+  $('.header-bg2').css('background-image', "url('img/header-bg2-small.jpg')");
+  $('.header-bg3').css('background-image', "url('img/header-bg3-small.jpg')");
+}
+else {
+  $('.header-bg').css('background-image', "url('img/header-bg.jpg')");
+  $('.header-bg2').css('background-image', "url('img/header-bg2.jpg')");
+  $('.header-bg3').css('background-image', "url('img/header-bg3.jpg')");
+}
+
+$(window).resize(function() {
+  if ($(window).width() <= 900 && $(window).width() > 600) {
+    $('.header-bg').css('background-image', "url('img/header-bg-medium.jpg')");
+    $('.header-bg2').css('background-image', "url('img/header-bg2-medium.jpg')");
+    $('.header-bg3').css('background-image', "url('img/header-bg3-medium.jpg')");
+  }
+  else if ($(window).width() <= 600) {
+    $('.header-bg').css('background-image', "url('img/header-bg-small.jpg')");
+    $('.header-bg2').css('background-image', "url('img/header-bg2-small.jpg')");
+    $('.header-bg3').css('background-image', "url('img/header-bg3-small.jpg')");
+  }
+  else {
+    $('.header-bg').css('background-image', "url('img/header-bg.jpg')");
+    $('.header-bg2').css('background-image', "url('img/header-bg2.jpg')");
+    $('.header-bg3').css('background-image', "url('img/header-bg3.jpg')");
+  }
+});
 
 
 $(document).ready(function() {
+
 
     $(function(){
 
@@ -809,6 +843,7 @@ $(document).ready(function() {
 
 
 });
+
 
 /* ==============================================
 ========== Navigation Scroll Effect =============
