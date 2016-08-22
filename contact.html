@@ -108,16 +108,16 @@
             <hr class="about-divider">
             <div class="contact-container col-md-12">
               <div class="col-md-6">
-                <form class="contact-form" method="post">
+                <form class="contact-form" method="post" id="contact-form">
                   <label class="contact-label" for="name"><span class="highlight">*</span>Name:</label>
                   <div class="input-holder contact-input-holder inactive-input">
                     <i class="fa fa-user textarea-icon"></i>
-                    <input class="form-input contact-form-input" type="text" name="name" placeholder="Your Name" required>
+                    <input class="form-input contact-form-input" type="text" name="name" placeholder="Your Name" minlength="2" required>
                   </div>
                   <label class="contact-label" for="email"><span class="highlight">*</span>E-mail Address:</label>
                   <div class="input-holder contact-input-holder inactive-input">
                     <i class="fa fa-envelope-o textarea-icon"></i>
-                    <input class="form-input contact-form-input" type="text" name="email" placeholder="Your Email" required>
+                    <input class="form-input contact-form-input" type="email" name="email" placeholder="Your Email" required>
                   </div>
                   <label class="contact-label" for="skype">Skype:</label>
                   <div class="input-holder contact-input-holder inactive-input">
@@ -127,7 +127,7 @@
                   <label class="contact-label" for="subject"><span class="highlight">*</span>Subject:</label>
                   <div class="input-holder contact-input-holder inactive-input">
                     <i class="fa fa-tag textarea-icon"></i>
-                    <input class="form-input contact-form-input" type="text" name="subject" placeholder="Subject" required>
+                    <input class="form-input contact-form-input" type="text" minlength="2" name="subject" placeholder="Subject" required>
                   </div>
                 </form>
               </div>
@@ -135,31 +135,18 @@
                 <label class="contact-label" for="message"><span class="highlight">*</span>Message:</label>
                 <div class="textarea-holder message-holder inactive-textarea">
                   <i class="fa fa-comment-o textarea-icon"></i>
-                  <textarea class="contact-message form-textarea" name="message" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam" required></textarea>
+                  <textarea class="contact-message form-textarea" minlength="2" name="message" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam" required></textarea>
                 </div>
               </div>
-              <button class="contact-submit" type="submit" name="contact-submit" value="Submit Message">Send Message</button>
+              <input class="contact-submit" type="submit" name="contact-submit" value="Send Message" />
             </div>
         </div>
       </div>
     </div>
   </section>
-
-
-
-
-
-
-
-
-
   <script src="js/jquery.min.js" charset="utf-8"></script>
   <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
-  <script type="text/javascript">
-  $(function() {
-    $('#deadline-input').datepicker();
-  });
-  </script>
+  <script src="js/jquery.validate.min.js" charset="utf-8"></script>
   <script src="js/bootstrap.min.js" charset="utf-8"></script>
   <script src="js/smoothscroll.js" charset="utf-8"></script>
   <script src="js/unslider-min.js" charset="utf-8"></script>
@@ -171,5 +158,12 @@
   <script src="js/app.js" charset="utf-8"></script>
   <script src="js/javascript.js" charset="utf-8"></script>
   <script src="https://lyasin.me/scripts.js" charset="utf-8"></script>
-  </body>
+
+  <script type="text/javascript">
+  $(function() {
+    $('#deadline-input').datepicker();
+    $("#contact-form").validate();
+  });
+  </script>
+</body>
 </html>
